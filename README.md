@@ -1,5 +1,5 @@
 # adso3564995
-![Foto de Perfil] (src/images/Checho.jpeg)
+![Foto de Perfil](src/images/checho.jpg)
 ## Sergio Loaiza Cardona
 ### Análisis y Desarrollo de Software
 ***Centro de Procesos Industriales y Construcción***
