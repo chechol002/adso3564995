@@ -1,5 +1,5 @@
 # adso3564995
-![Foto de Perfil](src/images/checho.jpg)
+![Foto de Perfil](src/images/checho.webp)
 Lorem ipsum dolor sit amet.
 ## Sergio Loaiza Cardona
 ### Análisis y Desarrollo de Software
