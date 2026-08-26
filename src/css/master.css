@@ -3,8 +3,8 @@
 
 /* Styles */
 body {
-    background: linear-gradient(to top, #738678, #2c332e);
-    color: #fff9;
+    background: linear-gradient(to top, rgb(212, 25, 25), #2c332e);
+    color: #fff;
     font-family: Poppins;
     min-height: 100dvh;
 
