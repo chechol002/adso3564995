@@ -3,29 +3,30 @@
 
 /* Styles */
 body {
-    background: linear-gradient(to top, #738678, #2c332e);
-    color: #eddcb9aa;
-    background-attachment: fixed;
+    background: linear-gradient(to top, #2a4ec7fd, #7278ac);
+    color: #fff9;
     font-family: Poppins;
     min-height: 100dvh;
 
-    &.emmet {
-        background: linear-gradient(to top, #7acb16, #192a05);
+    &.emmet{
+        background: linear-gradient(to bottom, rgb(11, 63, 11), rgb(37, 224, 37));
         color: #baffa9aa;
 
-        main {
+       main {
             header.mmenu {
                 h1 {
                     border-bottom: 2px solid #baffa9aa;
                 }
                 img {
-                    border: 4px solid #baffa933;
-                }
+                    border: 4px solid #baffa9aa;
+                  }
+
             }
+            
             section {
                 h2.subtitle {
                     align-items: center;
-                    background-color: #7acb16;
+                    background-color: #35ec08aa;
                     border-radius: 8px;
                     color: #0009;
                     display: flex;
@@ -37,38 +38,38 @@ body {
                         align-items: center;
                         background-color: #0009;
                         border-radius: 50%;
-                        color: #fffc;
+                        color: #baffa9aa;
                         display: flex;
                         height: 30px;
-                        justify-content: center;
                         width: 30px;
+                        justify-content: center;
                     }
                 }
                 small {
-                    color: #fff9;
+                    color: #ffffffaa;
+                    
                 }
                 h3 {
                     margin: 0;
-                    border-bottom: 1px dotted #baffa9aa;
+                    border-bottom: 1px solid #baffa9aa;
                 }
                 p {
-                    color: #fff9;
+                    color: #ffffffaa;
                     font-size: 1.2rem;
-                }
+                }  
                 xmp {
-                    background-color: #0009;
+                    background-color: #000000aa;
                     border-radius: 8px;
-                    color: #fffc;
+                    color: rgb(252, 251, 251);
                     padding: 0.4rem;
                 }
             }
         }
     }
-
-    nav.goback {
-        align-items: center;
-        border-radius: 50%;
-        border: 2px solid #fff;
+nav.goback{
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
         display: flex;
         height: 40px;
         justify-content: center;
@@ -80,12 +81,11 @@ body {
         width: 40px;
         &:hover {
             opacity: .9;
-            transform: scale(1.1);
-        }
-    }
+            transform: scale(1.1);}
 
+}
     main {
-        background: linear-gradient(to bottom, #0009, #0000);
+        background: linear-gradient(to bottom, rgb(20, 102, 33), #090202a8);
         border-radius: 0.6rem;
         display: flex;
         flex-direction: column;
@@ -98,48 +98,49 @@ body {
         header.mmenu {
             text-align: center;
 
-            h1 {
-                font-size: 3rem;
-                font-weight: 200;
-                border-bottom: 2px solid #eddcb9aa;
+            h1 {color: rgb(135, 151, 153);
+                font-size: 2rem;
+                font-weight: 700;
+                border-bottom: 2px solid rgb(2, 2, 2);
                 margin: 0;
             }
-            h2 {
+            h2 {color: rgb(134, 148, 150);
                 font-size: 1.2rem;
-                font-weight: 500;
+                font-weight: 700;
                 margin: 0;
             }
             img {
                 margin: 2rem auto;
-                border: 4px solid #eddcb933;
+                border: 4px solid rgb(6, 6, 6);
                 border-radius: 50%;
                 object-fit: cover;
                 height: 280px;
                 width: 280px;
             }
-            h3 {
+            h3 {color: rgb(134, 148, 150);
                 font-size: 1.2rem;
                 font-weight: 600;
                 margin: 0;
             }
-            h4 {
+            h4 {color: rgb(134, 148, 150);
                 font-size: 0.94rem;
-                font-weight: 200;
+                font-weight: 500;
                 margin: 0;
             }
-            h5 {
+            h5 {color: rgb(134, 148, 150);
                 font-size: 1rem;
                 font-weight: 400;
                 margin: 0;
             }
         }
-
-         section {
-            background-color: #0009;
+        
+        section {
+            background-color: rgb(0, 0, 0);
             border-radius: 8px;
-            padding: 0.6rem;
+            padding: 0.4rem;
             margin: 1rem auto;
-            width: 360px;
+            width: 350px;
+
         }
 
         menu.mmenu {
@@ -150,12 +151,12 @@ body {
             margin: 2rem auto;
             gap: 0.6rem;
             justify-content: center;
-            
+
             a:is(:link, :visited) {
                 background-color: #0009;
                 border-radius: 5rem;
                 text-decoration: none;
-                color: #eddcb9aa;
+                color: #fff9;
                 display: flex;
                 justify-content: start;
                 align-items: center;
@@ -164,19 +165,13 @@ body {
                 width: 280px;
 
                 &:is(:hover) {
-                    background-color: #738678;
+                    background-color: #7b7386;
                     color: #0009;
                     transform: scale(1.05) translateX(16px);
 
                     span {
                         background-color: #0009;
                         color: #fff9;
-                    }
-
-                    aside {
-                        small {
-                            color: #0004;
-                        }
                     }
                 }
 
@@ -185,7 +180,7 @@ body {
                     display: flex;
                     font-size: 1.8rem;
                     border-radius: 50%;
-                    background-color: #738678;
+                    background-color: #1b4bcf;
                     color: #0009;
                     justify-content: center;
                     height: 60px;
@@ -206,10 +201,9 @@ body {
                     }
                     small {
                         font-size: 0.6rem;
-                        color: #eddcb944;
+                        color: #fff4;
                     }
                 } 
             }
         }
     }
-}
