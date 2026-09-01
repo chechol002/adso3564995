@@ -297,42 +297,45 @@ initial-scale=1.0">
         </h2>
         <small> Generates emmet challenges for practice </small>
         <h3>Example:</h3>
-        <p></p>
+        <p>header#header>nav.navbar-inverse>div.container>div.navbar-header>button["type=button"].navbar-toggle>span.sr-only{Toogle navigation}+span.icon-bar*3^a.navbar-brand[href=index.php]>img[src="imags/logo.png" alt="Logo"]^^div.collapse>ul.nav.navbar-nav>li>a.link[href="index.html"]{Inicio}^li.active.link>a[href="Login.html"]{Ingresar}^li>a.link[href="registro.html"]{Registrarse}^li>a.link[href="contacto.html"]{Contacto}</p>
         <h3>Result:</h3>
 
-<xmp> <header id="header">
-    <nav class="navbar navbar-inverse">
+<xmp> 
+<header id="header">
+    <nav class="navbar-inverse">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
+                <button class="navbar-toggle">
+                    <span class="sr-only">Toogle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">
-                    <img src="logo.png" alt="Logo">
+                <a href="index.php" class="navbar-brand">
+                    <img src="imags/logo.png" alt="Logo">
                 </a>
             </div>
             <div class="collapse">
-                <ul class="navbar-nav">
+                <ul class="nav navbar-nav">
                     <li>
-                        <a class="link" href="index.html">Inicio</a>
+                        <a href="index.html" class="link">Inicio</a>
                     </li>
-                    <li class="active">
-                        <a class="link" href="login.html">Ingresar</a>
-                    </li>
-                    <li>
-                        <a class="link" href="registro.html">Registrarse</a>
+                    <li class="active link">
+                        <a href="Login.html">Ingresar</a>
                     </li>
                     <li>
-                        <a class="link" href="contacto.html">Contacto</a>
+                        <a href="registro.html" class="link">Registrarse</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html" class="link">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
+
+
 
     </xmp>
     </section>
